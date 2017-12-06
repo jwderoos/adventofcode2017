@@ -45,6 +45,7 @@ while (true) {
         }
 
         $knownConfigurations = [];
+        echo "$step\n";
         $step = 0;
         $loop = true;
         isConfigurationKnown($mem, $knownConfigurations);
