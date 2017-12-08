@@ -134,7 +134,7 @@ class Program {
 /** @var Program[] $programs */
 $programs = [];
 
-$input = explode("\n", file_get_contents('input8'));
+$input = explode("\n", file_get_contents('input7'));
 
 foreach ($input as $line) {
     $lineParts = explode("->", $line);
